@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "teste01"
+version = "0.1.0"
+description = ""
+authors = ["grah019 <87107138+grah019@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.4"
+psycopg2 = "^2.9.9"
+pandas = "^2.2.2"
+sqlalchemy = "^2.0.32"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
